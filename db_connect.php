@@ -6,7 +6,7 @@ if (session_status() == PHP_SESSION_NONE) {
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "QL_NhanSu";
+$dbname = "test1";
 
 $conn = new mysqli($servername, $username, $password, $dbname);   
 
